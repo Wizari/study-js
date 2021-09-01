@@ -1,0 +1,13 @@
+img {
+    width: 150px;
+}
+
+.default-input {
+    border: green 5px solid;
+    padding: 5px;
+}
+
+.error-input  {
+    border: red 2px solid;
+    /*padding: 5px;*/
+}

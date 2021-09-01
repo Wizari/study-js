@@ -1,0 +1,43 @@
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="index.css">
+<b style="color: green">
+    lesson 08-09
+</b>
+<p></p>
+
+<input value="Hello">
+
+<input class="default-input" value="text1">
+<input class="error-input" value="text2">
+<input value="text3">
+
+<p>
+    <select name="cities" id="cities">
+        <option>City1</option>
+        <option>City2</option>
+        <option selected="selected">City3</option>
+    </select>
+</p>
+
+<p>
+    <textarea name="" id="hobbies" cols="30" rows="1">JS, CSS, HTML</textarea>
+</p>
+
+<!--<hr/>-->
+<div id="spaceMarines-wrapper">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rG-f6VlJYL1Mb1ubOu21rfBz5zX5tk2BUA&usqp=CAU"
+         style="width: 150px" alt="spaceMarines" id="spaceMarines">
+</div>
+
+<script>
+    console.log(document.getElementById("cities").value)
+    console.log(document.getElementById("hobbies").id)
+    console.log(document.getElementById("spaceMarines").src)
+    console.log(document.getElementById("spaceMarines").alt)
+    console.log(document.getElementById("spaceMarines-wrapper"))
+
+    var spaceMarWrapper = document.getElementById("spaceMarines-wrapper");
+    spaceMarWrapper.innerHTML = "<ul><li>1</li><li>2</li></ul>"
+    document.getElementById("spaceMarines-wrapper").innerHTML = "<ul><li>3</li><li>4</li></ul>"
+
+</script>
