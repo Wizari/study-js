@@ -1,0 +1,9 @@
+.w-slider {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.w-slider .slide-img {
+    height: 200px;
+}
